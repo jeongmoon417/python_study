@@ -1,6 +1,6 @@
+##list exercise : this is my shopping list##
 print 'This is list exercise'
 
-#list exercise : this is my shopping list
 shopping_list = ['apple', 'banana', 'milk']
 
 print 'I have', len(shopping_list), 'items to purchase'
@@ -20,10 +20,13 @@ old_item = shopping_list[0]
 del shopping_list[0]
 print 'I deleted first item:', old_item ,', so first item is changed, what is first itme?', shopping_list[0]
 
+
+
+
+##tuple exercise : zoo##
+#tuple : X have operations, canoot modify elements
 print '\n\nThis is tuple exercise'
 
-#tuple exercise : zoo
-#tuple : X have operations, canoot modify elements
 zoo = ('python', 'elephant', 'snake', 'rabbit')
 zoo2 = (2, ) #tuple has only one element
 zoo3 =  'dog', 'cat', 'horse'
@@ -39,9 +42,11 @@ print 'Animals brought from old zoo are', new_zoo[2]
 print 'Last animal brought from old zoo is', new_zoo[2][2]
 print 'Number of animals in the new zoo is', len(new_zoo)-1+len(new_zoo[2])
 
-print '\n\nThis is tuple exercise'
 
-#dictionary exercise : address book
+
+
+##dictionary exercise : address book##
+print '\n\nThis is tuple exercise'
 
 ab = { 'Jimin'  : 'jmin@python.com',
        'Minsu'  : 'min@python.com',
