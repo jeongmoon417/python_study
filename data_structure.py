@@ -72,7 +72,7 @@ print 'Jangmi' in ab
 
 
 
-#sequence exercise : stations#
+##sequence exercise : stations##
 print '\n\nThis is sequence exercise'
 
 stations = ['janghanpyeong', 'dapsipri', 'majang', 'wangsipri', 'hegndang']
