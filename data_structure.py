@@ -70,3 +70,35 @@ print 'Is there Jangmi\'s address in address book?',
 print 'Jangmi' in ab
 
 
+
+
+#sequence exercise : stations#
+print '\n\nThis is sequence exercise'
+
+stations = ['janghanpyeong', 'dapsipri', 'majang', 'wangsipri', 'hegndang']
+name = 'jeongmoon'
+
+print 'Item0 is', stations[0]
+for st in range(len(stations)):
+    print 'station {} : {}'.format(st, stations[st])
+print 'Item -1 is', stations[-1]
+print 'Item -2 is', stations[-2]
+print 'Character 0 is', name[0]
+
+print 'Item 1 to 3 is', stations[1:3]
+print 'Item 1 to end is', stations[1:]
+print 'Iteim 1 to -1 is', stations[1:-1]
+print 'Item start to end is', stations[:]
+print 'character 0 to 5 is', name[0:5]
+
+print 'Is there station gunja in sequence?',
+if ('gunja' in stations):
+    print 'yes'
+else:
+    print 'no'
+
+print 'step is 1', stations[::1]
+print 'step is 2', stations[::2]
+print 'step is 3', stations[::3]
+print 'step is -1', stations[::-1]
+print 'step is -2', stations[::-2]
