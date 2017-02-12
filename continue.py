@@ -1,3 +1,5 @@
+#"countinu" example : repeat printing "Too small" or "Input is..." according to input's lenth
+
 while True:
         s=raw_input('Enter something: ')
         if s == 'quit' :
