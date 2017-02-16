@@ -1,3 +1,10 @@
+"""
+data analysis example
+1. get data from csv file
+2. process data (capital letters, special chracters)
+3. count the number of alphabets
+"""
+
 import csv
 import re
 import collections
