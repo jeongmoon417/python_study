@@ -1,3 +1,9 @@
+#graph example using matplotlib#
+'''
+draw line plot (y=ax)
+save it as png file
+'''
+
 import sys
 reload(sys)
 sys.setdefaultencoding('utf8')
