@@ -1,6 +1,7 @@
-# -*- coding: utf-8 -*-
+'''
+CSV file i/o example
 
-'''CSV   
+oepn csv file from local directory, add contents to list, and print list!
 '''
 
 import csv
