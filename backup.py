@@ -1,4 +1,8 @@
-#file backup program
+##file backup program##
+""" 
+copy files from defined source directories (C:\jmoon),
+make zip file, save zipped file to target directory
+"""
 
 import os
 import time
