@@ -1,7 +1,7 @@
 '''
 CSV file i/o example
 
-oepn csv file from local directory, add contents to list, and print list!
+open csv file from local directory, add contents to list, and print list!
 '''
 
 import csv
