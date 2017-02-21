@@ -1,3 +1,9 @@
+'''
+summation program
+
+print 1+2+3+...+n
+'''
+
 s = input('Enter number : ')
 
 sum = 0
