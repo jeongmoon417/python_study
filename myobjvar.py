@@ -1,3 +1,10 @@
+'''
+class example
+
+define class Robbot (init, method)
+use it
+'''
+
 class Robot:
         """Represents a robot, with a name."""
 
