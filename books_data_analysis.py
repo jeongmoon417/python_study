@@ -59,3 +59,21 @@ while(True):
         break
 small_alp = alp.lower()
 print 'The number of alphabet', small_alp, ':', count[small_alp]
+
+import numpy as np
+import matplotlib.pyplot as plt
+import string
+
+plt.switch_backend('agg')
+
+fig = plt.figure()
+
+alphabets = []
+alphabets = list(string.ascii_lowercase)
+
+
+for i in range(len(alphabets)):
+    alphabets[i].append(count[i])
+
+print alphabets
+
