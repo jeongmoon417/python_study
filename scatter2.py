@@ -1,8 +1,19 @@
 # -*- coding: utf-8 -*-
 
 '''
-사인 코사인 그래프 그리기
-그래프 속성 변경하기
+error
+Traceback (most recent call last):
+  File "scatter2.py", line 20, in <module>
+    plt.scatter([(1,1)], 50, color ='red')
+  File "/usr/lib/python2.7/site-packages/matplotlib/pyplot.py", line 3435, in scatter
+    edgecolors=edgecolors, data=data, **kwargs)
+  File "/usr/lib/python2.7/site-packages/matplotlib/__init__.py", line 1892, in inner
+    return func(ax, *args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/matplotlib/axes/_axes.py", line 3958, in scatter
+    raise ValueError("x and y must be the same size")
+ValueError: x and y must be the same size
+
+
 '''
 import sys
 reload(sys)
