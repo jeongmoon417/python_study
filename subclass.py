@@ -1,3 +1,9 @@
+'''
+Inheritance example
+make class school member
+inharitant to teacher and student
+'''
+
 class SchoolMember:
     '''Represents any school member'''
     def __init__(self, name, age):
