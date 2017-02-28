@@ -3,7 +3,7 @@ reload(sys)
 sys.setdefaultencoding('utf8')
 
 '''
-원그래프 그리기
+pie graph exercise
 '''
 
 import matplotlib.pyplot as plt
