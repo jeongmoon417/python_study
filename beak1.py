@@ -33,5 +33,6 @@ for i in range(len(chapters)):
     print chapters[0], 'deleted'
     del chapters[0]
     chapters.append(two_chapter)
+    print '\n'
 
 print sum
