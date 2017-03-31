@@ -7,3 +7,6 @@ server.login("youremailusername", "password")
 #Send the mail
 msg = "Hello!" # The /n separates the message from the headers
 server.sendmail("you@gmail.com", "target@example.com", msg)
+
+
+## NOT finished yet..
