@@ -1,4 +1,5 @@
-##file backup program##
+# -*- coding: utf-8 -*-
+##파일 백업 프로그램##
 """ 
 copy files from defined source directories (C:\jmoon),
 make zip file, save zipped file to target directory
